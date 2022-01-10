@@ -1,7 +1,7 @@
 #ifndef CORE_TELECOMCABLECOLOURCODING_H_INCLUDED
 #define CORE_TELECOMCABLECOLOURCODING_H_INCLUDED
 
-#define MAX_COLORPAIR_NAME_CHARS = 16;
+#define MAX_COLORPAIR_NAME_CHARS  16
 
 typedef enum {
     WHITE = 0,
@@ -27,4 +27,5 @@ typedef struct {
 extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
 extern ColorPair GetColorFromPairNumber(int pairNumber);
 extern int GetPairNumberFromColor(const ColorPair* colorPair);
+
 #endif // CORE_TELECOMCABLECOLOURCODING_H_INCLUDED
