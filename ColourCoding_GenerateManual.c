@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "Core_TelecomCableColourCoding.h"
-#include "Test_TelecomCableColourCoding.h"
+#include "ColourCoding_CoreDefinitions.h"
+#include "ColourCoding_TestDefinitions.h"
 
 void ColourCoding_GenerateRefernceManual(void)
 {
