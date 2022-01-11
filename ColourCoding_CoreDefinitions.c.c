@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Core_TelecomCableColourCoding.h"
+#include "ColourCoding_CoreDefinitions.h"
 
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
