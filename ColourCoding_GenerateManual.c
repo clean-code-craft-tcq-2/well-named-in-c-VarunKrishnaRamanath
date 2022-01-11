@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "ColourCoding_CoreDefinitions.h"
 #include "ColourCoding_TestDefinitions.h"
+#include "ColourCoding_GenerateManual.h"
 
 void ColourCoding_GenerateRefernceManual(void)
 {
