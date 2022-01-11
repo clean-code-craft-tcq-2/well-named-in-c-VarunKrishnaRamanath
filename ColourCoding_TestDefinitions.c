@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
-#include "Core_TelecomCableColourCoding.h"
-#include "Test_TelecomCableColourCoding.h"
+#include "ColourCoding_CoreDefinitions.h"
+#include "ColourCoding_TestDefinitions.h"
 
 void testNumberToPair(int pairNumber, MajorColor expectedMajor, MinorColor expectedMinor)
 {
