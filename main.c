@@ -1,5 +1,6 @@
-#include "Core_TelecomCableColourCoding.h"
-#include "Test_TelecomCableColourCoding.h"
+#include "ColourCoding_CoreDefinitions.h"
+#include "ColourCoding_TestDefinitions.h"
+#include "ColourCoding_GenerateManual"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
